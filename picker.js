@@ -1,3 +1,5 @@
+//I always have a hard time picking where to eat, made this to avoid the difficulty
+
 let randomNumber = Math.floor(Math.random() * 5);
 function getRandomItem(val) {
     val = randomNumber;
