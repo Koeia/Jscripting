@@ -1,13 +1,14 @@
 const getUserChoice = userInput => {
     userInput = userInput.toLowerCase();
-    if (userInput === 'rock') {
-        return userInput;
-    } else if (userInput === 'scissors') {
-        return userInput;
-    } else if (userInput === 'paper') {
-        return userInput;
-    } else {
-        return ('Error')
+    switch (userInput) {
+        case 'rock':
+            return 'rock';
+        case 'paper':
+            return 'paper';
+        case 'scissors':
+            return 'scissors';
+        default:
+            return 'error'
     }
 }
 
@@ -41,7 +42,7 @@ function determineWinner(userChoice, computerChoice) {
 }
 
 function playGame() {
-    let userChoice = getUserChoice('scissors');
+    let userChoice = getUserChoice('rock');
     let computerChoice = getComputerChoice();
     if (userChoice === 'Error') {
         console.log('Please make a selection')
