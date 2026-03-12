@@ -41,6 +41,9 @@ function determineWinner(userChoice, computerChoice) {
     }
 }
 
+
+//
+
 function playGame() {
     let userChoice = getUserChoice('rock');
     let computerChoice = getComputerChoice();
