@@ -14,12 +14,13 @@ const getUserChoice = userInput => {
 
 function getComputerChoice() {
     let randomNumber = Math.floor(Math.random() * 3)
-    if (randomNumber === 0) {
-        return 'rock'
-    } else if (randomNumber === 1) {
-        return 'scissors'
-    } else if (randomNumber === 2) {
-        return 'paper'
+    switch (randomNumber) {
+        case 0:
+            return 'rock';
+        case 1:
+            return 'paper';
+        case 2:
+            return 'scissors';
     }
 }
 
