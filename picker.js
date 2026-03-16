@@ -18,5 +18,4 @@ function getRandomItem(val) {
             return 'Dont eat lol';
     }
 }
-
 console.log(getRandomItem())
