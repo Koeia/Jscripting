@@ -1,5 +1,4 @@
-//I always have a hard time picking where to eat, made this to avoid the difficulty
-
+//I always have a hard time picking where to eat, made this to avoid the difficulty l
 function getRandomItem(val) {
   val = Math.floor(Math.random() * 5);
   switch (val) {
@@ -18,4 +17,7 @@ function getRandomItem(val) {
   }
 }
 console.log(getRandomItem());
-
+//
+("this is a string");
+true; // this is boolean
+12; // this is a number
