@@ -10,6 +10,7 @@ function finalGrade(grade1, grade2, grade3) {
     return "You have entered an invalid grade.";
   } else {
     let total = (grade1 + grade2 + grade3) / 3;
+    console.log(total);
     if ((total >= 0) & (total <= 59)) {
       return "F";
     } else if ((total >= 60) & (total <= 69)) {
@@ -23,3 +24,5 @@ function finalGrade(grade1, grade2, grade3) {
     }
   }
 }
+
+console.log(finalGrade(100, 85, 50));
