@@ -1,4 +1,5 @@
-/* const totalCost = (hotelOne, hotelTwo) => {
+/*
+const totalCost = (hotelOne, hotelTwo) => {
   const gasPrice = (mpg, ppg, totalMiles) => {
     let roundTrip = totalMiles * 2;
     let totalGallons = roundTrip / mpg;
