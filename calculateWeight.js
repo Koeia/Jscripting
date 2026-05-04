@@ -1,4 +1,5 @@
 const calculateWeight = (earthWeight, planet) => {
+  //test
   switch (planet) {
     case "Mercury":
       return earthWeight * 0.378;
