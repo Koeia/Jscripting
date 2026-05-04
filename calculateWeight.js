@@ -17,5 +17,6 @@ const calculateWeight = (earthWeight, planet) => {
     default:
       return "Invalid Planet Entry. Try: Mercury, Venus, Mars, Jupiter, or Saturn.";
       break;
+    //test
   }
 };
