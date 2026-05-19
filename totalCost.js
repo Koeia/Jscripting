@@ -7,4 +7,8 @@ const gasPrice = (mpg, ppg, totalMiles) => {
     `this trip will require ${Math.round(totalGallons * 100) / 100} gallons of gas which will cost $${Math.round(priceOfGas * 100) / 100}`,
   );
 };
-gasPrice(36, 3.71, 307);
+gasPrice(29, 4.3, 22.5);
+// 41 miles sarahs -> HCC
+// 55 miles lydias to hcc
+// 11 miles lydias to sarahs
+// 3 miles ootw
